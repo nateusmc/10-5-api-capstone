@@ -19,28 +19,21 @@ Bonus: Make additional API calls upon a user action
 #
 #
 #
-Google Maps: https://developers.google.com/maps/web/
+Giphy: https://developers.giphy.com/docs/
 #
-Google maps JavaScript API Key: AIzaSyB1RnGdjfeliU21iMFPLuhrcjgGVmEFvvQ
+Giphy API Key: ZdDgzt8HJYZHA41JfAlYJMA3OAMMh0VV
 #
 #
-Nadam's Place Finder
+Giftastic
 #
 Basic Functionality:
-Create a web app that allows the user to search for places by location and/or category/name and returns these places as a dropped pin on the map or search result list. Each pin should be clickable to display more information (phone numbers, address, hours of operation, etc).
+You are able to search through the giphy api using a user-inputted keyword that returns results based on that keyword. 10 pics per page and a next and previous page button. Scroll down and continue to populate the page below bottom contend. onMouseOver on a GIF; it will increase in size. onRightClick drop down menu pops out with options to 'save', 'share', etc. Hot topics section off to the side that links to trending categories.
 #
 Reach Goals:
--Offering Directions (supported with same API)
--Offering Reviews
--Showing Star Ratings
--Showing Traffic Conditions
--Showing Weather Conditions
--Showing Construction
+-onKeyPress Generate a GIF
+-Gif Randomizer
 #
 As a user you will be able to:
--Display recently searched locations as hyperlinks to click and search again
--Save locations on a map via Stars and allow them to interact with them
--User provides type, zip code, or name as input and returns results
--User can select the pin to display more information
--Click on expanded location display information to display more in depth information
--Display hyperlink to place's website
+-Hit 'Next button' to move to next page
+-Browse through the 'hot topics' section
+-Right click GIF for right-click options
