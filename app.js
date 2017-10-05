@@ -8,11 +8,56 @@ const randomEndPoint = 'https://api.giphy.com/v1/gifs/random?api_key=ZdDgzt8HJYZ
 const getByIdEndPoint = 'https://api.giphy.com/v1/gifs/?api_key=ZdDgzt8HJYZHA41JfAlYJMA3OAMMh0VV';
 const getByIdSeperatedCommasEndPoint = 'https://api.giphy.com/v1/gifs?api_key=ZdDgzt8HJYZHA41JfAlYJMA3OAMMh0VV&gif_ids=';
 
-let STORE = [
-
-]
 
 
 
+let STORE = {
+    
+}
+giffs = []
+
+function getDataFromApi(searchTerm,) {
+    const params = {
+        
+      q: searchTerm,
+      api_key: key
+    };
+    $.getJSON(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}`, (response) => {
+    //   Objects for our rendering functions
+            giffs = response.push
+    
+        console.log(response)
+    });
+    // insert render function
+  }
+  getDataFromApi('dogs');
 
 
+
+
+
+// function getGiffApis() {
+//     // get giffs from api
+//     //  create callback function
+
+// }
+
+// function renderGiffs () {
+    // render giffs from giffs array in STORE    
+    // render landing page
+    // render searched giffs
+    // auto render trending giffs
+    // auto render popular #'tags
+// }
+
+// function eventListeners () {
+     // search field listener on form
+        // recover search fild data value
+    // click on trending giffs to expand
+    // click on #tags and run search
+//     // expand giffs returned from search
+// }
+
+
+
+ 
