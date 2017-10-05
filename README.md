@@ -18,4 +18,22 @@ Bonus: Make additional API calls upon a user action
 #
 #
 #
-
+#
+Giphy: https://developers.giphy.com/docs/
+#
+Giphy API Key: ZdDgzt8HJYZHA41JfAlYJMA3OAMMh0VV
+#
+#
+Giftastic
+#
+Basic Functionality:
+You are able to search through the giphy api using a user-inputted keyword that returns results based on that keyword. 10 pics per page and a next and previous page button. Scroll down and continue to populate the page below bottom contend. onMouseOver on a GIF; it will increase in size. onRightClick drop down menu pops out with options to 'save', 'share', etc. Hot topics section off to the side that links to trending categories.
+#
+Reach Goals:
+-onKeyPress Generate a GIF
+-Gif Randomizer
+#
+As a user you will be able to:
+-Hit 'Next button' to move to next page
+-Browse through the 'hot topics' section
+-Right click GIF for right-click options
