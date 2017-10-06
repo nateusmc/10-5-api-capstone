@@ -26,7 +26,7 @@ function getDataFromApi(searchTerm) {
   //   q: 'funny',
   //   api_key: key
   // };
-  $.getJSON(`https://api.gipGifs by Category hy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}&limit=10`/*params*/, (response) => {
+  $.getJSON(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}&limit=10`/*params*/, (response) => {
     console.log(response);
     STORE.giffs = (response.data);
     renderGiffs();
@@ -57,7 +57,6 @@ $('.js-search').submit((e) => {
 
 
 
-// might need to update the 'original' img. file with another from Giphy Rendition Guide
 
 function renderGiffs(/*arr*/) {
   $('.js-results').html('');
@@ -65,7 +64,7 @@ function renderGiffs(/*arr*/) {
     $('.js-results').append(`<img src="${STORE.giffs/*arr*/[i].images.fixed_width_downsampled.url}"/>`);
   
   }
-};
+}
 
 function renderTrendingGiffs() {
   
@@ -80,34 +79,4 @@ function renderTrendingGiffs() {
     }
     
   }
-};
-
-
-
-//   $('js-gifHashtags').append(`<img src="${STORE.g// $('js-gifHashtags').append(`<img src="${iffs/*arr*/[i].images.original.url}"/>`);
-// }
-
-
-
-
-// function getGiffApis() {
-//     // get giffs from api
-//     //  create callback function
-
-// }
-  
-
-  // render giffs from giffs array in STORE    
-  // render landing page
-  // render searched giffs
-  // auto render trending giffs
-  // auto render popular #'tags
-
-
-// function eventListeners () {
-// search field listener on form
-// recover search fild data value
-// click on trending giffs to expand
-// click on #tags and run search
-//     // expand giffs returned from search
-// }
+}
