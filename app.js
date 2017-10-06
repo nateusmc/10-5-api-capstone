@@ -67,16 +67,47 @@ function renderGiffs(/*arr*/) {
   }
 };
 
-/*
+function renderTrendingGiffs() {
+  
+  $('.js-gifTrends').html('');
+  for (let i = 0; i < STORE.trendyGiffs.length; i++) {
+    if (STORE.cursorPopover === STORE.trendyGiffs[i].id) {
+      $('.js-gifTrends').append(`<div data-id="${STORE.trendyGiffs[i].id}"><img src="${STORE.trendyGiffs[i].images.original.url}"/></div>`);
+    }
+    else {
+      $('.js-gifTrends').append(`<div data-id="${STORE.trendyGiffs[i].id}"><img src="${STORE.trendyGiffs[i].images.fixed_width_downsampled.url}"/></div>`);
+      
+    }
+    
+  }
+};
 
-Features:
 
--10 pics per page and scroll down and continue to populate the page below bottom content
 
--onMouseOver on a GIF; it will increase in size.
+//   $('js-gifHashtags').append(`<img src="${STORE.g// $('js-gifHashtags').append(`<img src="${iffs/*arr*/[i].images.original.url}"/>`);
+// }
 
--onRightClick drop down menu pops out with options to 'save', 'share', etc.
 
--Hot topics section off to the side that links to trending categories.
 
-*/
+
+// function getGiffApis() {
+//     // get giffs from api
+//     //  create callback function
+
+// }
+  
+
+  // render giffs from giffs array in STORE    
+  // render landing page
+  // render searched giffs
+  // auto render trending giffs
+  // auto render popular #'tags
+
+
+// function eventListeners () {
+// search field listener on form
+// recover search fild data value
+// click on trending giffs to expand
+// click on #tags and run search
+//     // expand giffs returned from search
+// }
