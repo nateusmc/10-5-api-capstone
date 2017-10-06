@@ -12,9 +12,9 @@ const getByIdSeperatedCommasEndPoint = 'https://api.giphy.com/v1/gifs?api_key=Zd
 
 
 let STORE = {
-    
+    giffs = []
+   
 }
-giffs = []
 
 function getDataFromApi(searchTerm,) {
     const params = {
@@ -24,8 +24,8 @@ function getDataFromApi(searchTerm,) {
     };
     $.getJSON(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}`, (response) => {
     //   Objects for our rendering functions
-            giffs = response.push
-    
+           
+       
         console.log(response)
     });
     // insert render function
