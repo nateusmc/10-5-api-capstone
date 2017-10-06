@@ -1,0 +1,41 @@
+.js-gifTrends {
+    position: absolute;
+    float: left;
+    width: 33%;
+    padding-right:  50px;
+    padding-top: 20px;
+    
+}
+
+
+.mainContent {
+    position: relative;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+
+.js-search {
+    position: absolute;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.js-gifHashtags {
+    position: relative;
+    float: right;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    background-color: white;
+}

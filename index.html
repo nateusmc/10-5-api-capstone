@@ -9,16 +9,25 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
- 
-  <nav> </nav>
-  <h1>Giftastic!!</h1>
-  <form class='js-search'>
-    <input class="js-search-form" type="text">
-    <input class='js-search-button' type="submit" value="Get Giffy">
-  </form>
-  <h2>Results</h2>
+  
+  <header><h1>Giftastic!</h1></header>
+  <div class='mainContent'>
+    <form class='js-search'>
+      <input class="js-search-form" type="text">
+      <input class='js-search-button' type="submit" value="Get Giffy">
+      <!-- <h2>Results</h2> -->
+    </form>
+  </div>
+  
+  
   <div class='js-results'></div>
+  <div class='js-gifHashtags'>
+    <h2>Gifs by Category</h2>
+  </div>
 
+  <div id="gifTrends" class='js-gifTrends'>
+    <h2>Trending Gifs</h2>
+  </div>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
