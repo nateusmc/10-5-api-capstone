@@ -24,9 +24,9 @@ function getDataFromApi(searchTerm,) {
     };
     $.getJSON(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}`, (response) => {
     //   Objects for our rendering functions
-           
+           return response;
        
-        console.log(response)
+        // console.log(response)
     });
     // insert render function
   }
@@ -43,6 +43,11 @@ function getDataFromApi(searchTerm,) {
 // }
 
 // function renderGiffs () {
+    $(".js-search-form').on('click', function(e) {
+        e.preventDefault();
+
+
+    })
     // render giffs from giffs array in STORE    
     // render landing page
     // render searched giffs
