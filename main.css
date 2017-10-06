@@ -1,41 +1,54 @@
-.js-gifTrends {
-    position: absolute;
-    float: left;
-    width: 33%;
-    padding-right:  50px;
-    padding-top: 20px;
+ body {
+    background-color: #2020A5;
+    font-family: 'Pacifico', cursive;
     
 }
-
+ .trendGifs {
+     font-size: 40px;
+     width: 300px;
+     position: relative;
+ }
 
 .mainContent {
+    align-items: center;
     position: relative;
+    margin-left: 200px; 
     margin-left: 33%;
     margin-right: 33%;
     padding-left: 3px;
-    padding-right: 3px;
+    padding-right: 3px; 
     
+ }
+
+.js-results {
+    margin-left: 320px;
+    float: right;
+    margin-top: 70px;
 }
 
 .js-search {
-    position: absolute;
-    margin-left: 33%;
-    margin-right: 33%;
-    padding-left: 3px;
-    padding-right: 3px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+   
+  
+    
 }
 
-.js-gifHashtags {
+ .js-gifHashtags {
     position: relative;
     float: right;
     width: 100%;
     text-align: center;
-    
-    
-}
 
-header {
+     
+} 
+
+ header {
     text-align: center;
-    position: fixed;
-    background-color: white;
-}
+    position: relative;
+    font-size: 50px;
+    float:center;
+   
+}   
+ 
