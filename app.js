@@ -48,20 +48,6 @@ function renderGiffs(/*arr*/) {
 // function getDataFromApi(searchTerm,) {
 //     // const params = {
         
-<<<<<<< HEAD
-      q: searchTerm,
-      api_key: key
-    };
-    $.getJSON(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}`, (response) => {
-    //   Objects for our rendering functions
-           return response;
-       
-        // console.log(response)
-    });
-    // insert render function
-  }
-  getDataFromApi('dogs');
-=======
 //     //   q: searchTerm,
 //     //   api_key: key
 //     // };
@@ -74,7 +60,6 @@ function renderGiffs(/*arr*/) {
 //     // insert render function
 //   }
 //   getDataFromApi('dogs');
->>>>>>> 9f6507cf5be8563b4ac8aab4ece902c5161929b1
 
 
 
@@ -87,27 +72,12 @@ function renderGiffs(/*arr*/) {
 // }
   
 
-<<<<<<< HEAD
-// function renderGiffs () {
-    $(".js-search-form').on('click', function(e) {
-        e.preventDefault();
-
-
-    })
-    // render giffs from giffs array in STORE    
-    // render landing page
-    // render searched giffs
-    // auto render trending giffs
-    // auto render popular #'tags
-// }
-=======
   // render giffs from giffs array in STORE    
   // render landing page
   // render searched giffs
   // auto render trending giffs
   // auto render popular #'tags
 }
->>>>>>> 9f6507cf5be8563b4ac8aab4ece902c5161929b1
 
 // function eventListeners () {
 // search field listener on form
