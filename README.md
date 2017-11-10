@@ -21,7 +21,6 @@ Bonus: Make additional API calls upon a user action
 #
 Giphy: https://developers.giphy.com/docs/
 #
-Giphy API Key: ZdDgzt8HJYZHA41JfAlYJMA3OAMMh0VV
 #
 #
 Giftastic
